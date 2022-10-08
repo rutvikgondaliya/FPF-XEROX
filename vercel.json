@@ -16,7 +16,7 @@
             "dest": "/index.js"
         },
         {
-            "src" : "fpf-vgec-xerox.json",
+            "src" : "/fpf-vgec-xerox.json",
             "dest": "/"
         }
     ]
