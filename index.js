@@ -1,6 +1,6 @@
 const express = require("express");
 const { google } = require("googleapis")
-const keyFile = require("fpf-vgec-xerox.json")
+// const keyFile = require("fpf-vgec-xerox.json")
 
 const app = express();
 app.set("view engine", "ejs");
@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
 })
 
 const auth = new google.auth.GoogleAuth({
-    keyFile,
+    keyFile: "fpf-vgec-xerox.json",
     scopes: "https://www.googleapis.com/auth/spreadsheets",
 });
 
