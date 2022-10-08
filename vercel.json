@@ -8,8 +8,17 @@
     ],
     "routes": [
         {
-            "src": "/(.*)",
+            "src": "/",
+            "dest": "/index.js"
+        },
+        {
+            "src": "/data",
+            "dest": "/index.js"
+        },
+        {
+            "src" : "fpf-vgec-xerox.json",
             "dest": "/"
         }
     ]
+    
 }
